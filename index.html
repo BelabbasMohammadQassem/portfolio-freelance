@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-white dark:bg-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="text-2xl font-semibold text-gray-900 dark:text-white">
+                    Qassem
+                </div>
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-8">
+                        <a href="#accueil" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Accueil</a>
+                        <a href="#projets" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Projets</a>
+                        <a href="#competences" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Compétences</a>
+                        <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="min-h-screen flex items-center justify-center pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6" data-aos="fade-up">
+                Bonjour, je suis <span class="text-blue-600">Qassem</span>
+            </h1>
+            <p class="text-xl text-gray-600 dark:text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+                Développeur Full Stack & Data Sciences
+            </p>
+            <a href="#projets">
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300" data-aos="fade-up" data-aos-delay="400">
+                Voir mes projets
+            </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Mes Projets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Projet Card 1 -->
+                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Oflix</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Un site pour répertorier les films et séries</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Ofoot</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Un site pour organiser et participer à des tournois de foot</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Bibliothèque</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Un site de bibliothèque de livres</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">ChatBot</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Chatbot en lien avec mes expériences et compétences</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Créateur de contenu</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Site vitrine créateur de contenu</p>
+                    </div>
+                </div>
+                <!-- Répéter pour d'autres projets -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+  <!-- Compétences Section -->
+<section id="competences" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Mes Compétences</h2>
+        
+        <!-- Développement Web -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-blue-600 mb-6">Développement Web</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
+                    <h4 class="text-xl font-semibold mb-4">Front-end</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• HTML5, CSS3, JavaScript</li>
+                        <li>• Bootstrap</li>
+                        <li>• Design Responsive</li>
+                        <li>• Accessibilité Web</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="text-xl font-semibold mb-4">Back-end</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• Symfony</li>
+                        <li>• Laravel</li>
+                        <li>• PHP</li>
+                        <li>• Templates PHP</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text-xl font-semibold mb-4">Fonctionnalités</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• Gestion utilisateurs</li>
+                        <li>• Sites interactifs</li>
+                        <li>• Authentification sécurisée</li>
+                        <li>• Protection contre les injections SQL</li>
+                        <li>• Gestion des sessions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Python & Data Science -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-blue-600 mb-6">Python & Data Science</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
+                    <h4 class="text-xl font-semibold mb-4">Python</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• Chatbots interactifs</li>
+                        <li>• Scripts automatisés</li>
+                        <li>• Manipulation de fichiers</li>
+                        <li>• Intégration APIs</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="text-xl font-semibold mb-4">Data Science</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• Pandas</li>
+                        <li>• Seaborn</li>
+                        <li>• Numpy</li>
+                        <li>• Matplotlib</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text-xl font-semibold mb-4">Analyse de données</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• Nettoyage de données</li>
+                        <li>• Visualisation</li>
+                        <li>• Préparation de datasets</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Infrastructure & DevOps -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold text-blue-600 mb-6">Infrastructure & DevOps</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
+                    <h4 class="text-xl font-semibold mb-4">Bases de données</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• MySQL</li>
+                        <li>• PostgreSQL</li>
+                        <li>• Modélisation (MCD/MLD)</li>
+                        <li>• Requêtes SQL</li>
+                        <li>• Conception de schémas</li>
+                        <li>• Administration BDD</li>
+
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="text-xl font-semibold mb-4">Déploiement</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• WSL</li>
+                        <li>• Docker</li>
+                        <li>• Hidora</li>
+                        <li>• Heroku</li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text-xl font-semibold mb-4">Méthodologies</h4>
+                    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                        <li>• Git</li>
+                        <li>• Méthodes Agiles</li>
+                        <li>• DevOps (notions)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 dark:text-white">Contact</h2>
+            
+            <div class="text-center">
+                <p class="mb-4 text-gray-600 dark:text-gray-300">Vous pouvez me contacter à l'adresse suivante :</p>
+                
+                <a href="mailto:votre@email.com" 
+                   class="inline-flex items-center text-blue-600 hover:text-blue-700 text-xl font-medium transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                         class="h-6 w-6 mr-2" 
+                         fill="none" 
+                         viewBox="0 0 24 24" 
+                         stroke="currentColor">
+                        <path stroke-linecap="round" 
+                              stroke-linejoin="round" 
+                              stroke-width="2" 
+                              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    proqassem@gmail.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <!-- Section principale -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <!-- Logo ou nom -->
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold">Votre Nom</h3>
+                    <p class="text-gray-400">Développeur Web Full Stack</p>
+                </div>
+    
+                <!-- Réseaux sociaux -->
+                <div class="flex space-x-6">
+                    <!-- GitHub -->
+                    <a href="https://github.com/BelabbasMohammadQassem" 
+                       class="text-gray-400 hover:text-white transition duration-300"
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+    
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/mohammad-qassem-belabbas/" 
+                       class="text-gray-400 hover:text-white transition duration-300"
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+    
+                    <!-- Email -->
+                    <a href="proqassem@gmail.com" 
+                       class="text-gray-400 hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Ligne de séparation -->
+            <div class="border-t border-gray-800 my-8"></div>
+    
+            <!-- Section mentions légales -->
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2024 Votre Nom. Tous droits réservés.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-white transition duration-300">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+</html>
