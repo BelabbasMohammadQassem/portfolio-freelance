@@ -28,21 +28,29 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="accueil" class="min-h-screen flex items-center justify-center pt-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6" data-aos="fade-up">
-                Bonjour, je suis <span class="text-blue-600">Qassem</span>
-            </h1>
-            <p class="text-xl text-gray-600 dark:text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-                Développeur Full Stack & Data Sciences
-            </p>
-            <a href="#projets">
+<section id="accueil" class="min-h-screen flex items-center justify-center pt-16 bg-[url('image/background.jpeg')] bg-cover bg-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <!-- Section Image -->
+        <div class="mb-6">
+            <img src="image/photo.jpeg" alt="Ma photo" class="w-56 h-56 rounded-full mx-auto" data-aos="fade-up">
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6" data-aos="fade-up">
+            Bonjour, je suis <span class="text-blue-600">Qassem</span>
+        </h1>
+        <p class="text-xl text-gray-600 dark:text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+            Développeur Full Stack & Data Sciences
+        </p>
+        <a href="#projets">
             <button class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300" data-aos="fade-up" data-aos-delay="400">
                 Voir mes projets
             </button>
-            </a>
-        </div>
-    </section>
+        </a>
+    </div>
+</section>
+
+    
+    
 
     <!-- Projets Section -->
     <section id="projets" class="py-20 bg-gray-50 dark:bg-gray-800">
@@ -51,15 +59,19 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Projet Card 1 -->
                 <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
-                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Oflix</h3>
-                        <p class="text-gray-600 dark:text-gray-300">Un site pour répertorier les films et séries</p>
-                    </div>
+                    <a href="https://oflix-2acfc930a883.herokuapp.com/#" target="_blank" rel="noopener noreferrer" class="block">
+                        <img src="image/oflix.png" alt="Projet 1" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Oflix</h3>
+                            <p class="text-gray-600 dark:text-gray-300">Un site pour répertorier les films et séries</p>
+                        </div>
+                    </a>
                 </div>
+                
 
                 <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
-                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <a href="https://ofoot-ca907a7090ec.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="block"></a>
+                    <img src="image/ofoot.png" alt="Projet 1" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Ofoot</h3>
                         <p class="text-gray-600 dark:text-gray-300">Un site pour organiser et participer à des tournois de foot</p>
@@ -75,7 +87,8 @@
                 </div>
 
                 <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
-                    <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
+                    <a href="https://chatbotportfolio-9332862d426d.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="block"></a>
+                    <img src="image/chatbot.png" alt="Projet 1" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">ChatBot</h3>
                         <p class="text-gray-600 dark:text-gray-300">Chatbot en lien avec mes expériences et compétences</p>
@@ -207,6 +220,30 @@
 </section>
 
 
+<!-- Avis des Clients Section -->
+<section id="avis" class="py-20 bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Avis de mes Clients</h2>
+        <div class="flex flex-col lg:flex-row justify-center gap-8">
+            <!-- Avis 1 -->
+            <div class="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md transition hover:shadow-xl" data-aos="fade-up">
+                <p class="text-gray-600 dark:text-gray-300 mb-4">"Qassem a transformé notre idée en réalité. Son professionnalisme et sa compétence nous ont impressionnés!"</p>
+                <h4 class="font-semibold text-gray-900 dark:text-white">Marie Dupont</h4>
+                <p class="text-gray-500">Entrepreneuse</p>
+            </div>
+
+            <!-- Avis 2 -->
+            <div class="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md transition hover:shadow-xl" data-aos="fade-up">
+                <p class="text-gray-600 dark:text-gray-300 mb-4">"Une collaboration fluide et efficace, Qassem a su répondre à toutes nos attentes."</p>
+                <h4 class="font-semibold text-gray-900 dark:text-white">Jean-Pierre Martin</h4>
+                <p class="text-gray-500">Directeur Technique</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-900">
         <div class="container mx-auto px-4">
@@ -240,8 +277,8 @@
             <div class="flex flex-col md:flex-row justify-between items-center mb-8">
                 <!-- Logo ou nom -->
                 <div class="mb-6 md:mb-0">
-                    <h3 class="text-2xl font-bold">Votre Nom</h3>
-                    <p class="text-gray-400">Développeur Web Full Stack</p>
+                    <h3 class="text-2xl font-bold">Qassem Belabbas</h3>
+                    <p class="text-gray-400">Développeur Full Stack & Data Sciences</p>
                 </div>
     
                 <!-- Réseaux sociaux -->
@@ -282,7 +319,7 @@
             <!-- Section mentions légales -->
             <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
                 <div class="mb-4 md:mb-0">
-                    <p>&copy; 2024 Votre Nom. Tous droits réservés.</p>
+                    <p>&copy; 2024 Qassem Belabbas. Tous droits réservés.</p>
                 </div>
                 <div class="flex space-x-4">
                     <a href="#" class="hover:text-white transition duration-300">Mentions légales</a>
