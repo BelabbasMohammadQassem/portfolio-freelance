@@ -19,6 +19,8 @@
                 <div class="hidden md:block">
                     <div class="flex items-center space-x-8">
                         <a href="#accueil" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Accueil</a>
+                        <a href="#parcours" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Parcours</a>
+                        <a href="#formation" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Formations</a>
                         <a href="#projets" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Projets</a>
                         <a href="#competences" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Compétences</a>
                         <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white">Contact</a>
@@ -64,10 +66,11 @@
             <!-- Timeline -->
             <div class="space-y-8">
                 <!-- Expérience 1 -->
-                <div class="relative pl-8 sm:pl-32 py-6 group">
+                <div class="parcours-card relative pl-8 sm:pl-32 py-6 group">
                     <!-- Point et ligne sur la timeline -->
                     <div class="absolute left-0 sm:left-20 h-full w-px bg-gray-200 dark:bg-gray-700"></div>
-                    <div class="absolute left-[-5px] sm:left-[77px] w-4 h-4 rounded-full bg-blue-600 mt-1.5"></div>
+                    <div class="absolute left-[-5px] sm:left-[73px] w-4 h-4 rounded-full bg-blue-600 mt-1.5"></div>
+                    
                     
                     <!-- Container pour le contenu -->
                     <div class="group-hover:text-blue-600 transition duration-300">
@@ -87,10 +90,10 @@
                 </div>
 
                 <!-- Expérience 2 -->
-                <div class="relative pl-8 sm:pl-32 py-6 group">
+                <div class="parcours-card relative pl-8 sm:pl-32 py-6 group">
                     <!-- Point et ligne sur la timeline -->
                     <div class="absolute left-0 sm:left-20 h-full w-px bg-gray-200 dark:bg-gray-700"></div>
-                    <div class="absolute left-[-5px] sm:left-[77px] w-4 h-4 rounded-full bg-blue-600 mt-1.5"></div>
+                    <div class="absolute left-[-5px] sm:left-[73px] w-4 h-4 rounded-full bg-blue-600 mt-1.5"></div>
                     
                     <!-- Container pour le contenu -->
                     <div class="group-hover:text-blue-600 transition duration-300">
@@ -121,7 +124,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <!-- Formation -->
-            <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6">
+            <div class="card-certifications bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6">
                 <h3 class="text-xl font-bold mb-4 dark:text-white">Formation</h3>
                 
                 <div class="space-y-6">
@@ -228,23 +231,24 @@
 </section>
 
     <!-- Projets Section -->
-    <section id="projets" class="py-20 bg-gray-50 dark:bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Mes Projets</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Projet Card 1 -->
-                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
-                    <a href="https://oflix-2acfc930a883.herokuapp.com/#" target="_blank" rel="noopener noreferrer" class="block">
-                        <img src="image/oflix.png" alt="Projet 1" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Oflix</h3>
-                            <p class="text-gray-600 dark:text-gray-300">Un site pour répertorier les films et séries</p>
-                        </div>
-                    </a>
-                </div>
+<section id="projets" class="py-20 bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Mes Projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Projet Card 1 -->
+            <div class="project-card bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                <a href="https://oflix-5b6779d2455a.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="block">
+                    <img src="image/oflix.png" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Oflix</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Un site pour répertorier les films et séries</p>
+                    </div>
+                </a>
+            </div>
+                
                 
 
-                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                <div class="project-card bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
                     <a href="https://ofoot-ca907a7090ec.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="block">
                         <img src="image/ofoot.png" alt="Projet 1" class="w-full h-48 object-cover">
                         <div class="p-6">
@@ -255,7 +259,7 @@
                 </div>
                 
 
-                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                <div class="project-card bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
                     <a href="https://biblio-php-4d6bd210dbe3.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="block">
                         <img src="image/bibliotheque.png" alt="Projet 1" class="w-full h-48 object-cover">
                         <div class="p-6">
@@ -266,7 +270,7 @@
                 </div>
                 
 
-                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                <div class="project-card bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
                     <a href="https://chatbotportfolio-9332862d426d.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="block">
                         <img src="image/chatbot.png" alt="Projet 1" class="w-full h-48 object-cover">
                         <div class="p-6">
@@ -277,7 +281,7 @@
                 </div>
                 
 
-                <div class="bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
+                <div class="project-card bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up">
                     <img src="projet1.jpg" alt="Projet 1" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Créateur de contenu</h3>
@@ -299,7 +303,7 @@
         <div class="mb-16">
             <h3 class="text-2xl font-bold text-blue-600 mb-6">Développement Web</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg skill-card" data-aos="fade-up">
                     <h4 class="text-xl font-semibold mb-4">Front-end</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• HTML5, CSS3, JavaScript</li>
@@ -308,7 +312,7 @@
                         <li>• Accessibilité Web</li>
                     </ul>
                 </div>
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg skill-card" data-aos="fade-up" data-aos-delay="100">
                     <h4 class="text-xl font-semibold mb-4">Back-end</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Symfony</li>
@@ -317,7 +321,7 @@
                         <li>• Templates PHP</li>
                     </ul>
                 </div>
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg skill-card" data-aos="fade-up" data-aos-delay="200">
                     <h4 class="text-xl font-semibold mb-4">Fonctionnalités</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Gestion utilisateurs</li>
@@ -329,12 +333,13 @@
                 </div>
             </div>
         </div>
+        
 
         <!-- Python & Data Science -->
         <div class="mb-16">
             <h3 class="text-2xl font-bold text-blue-600 mb-6">Python & Data Science</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
+                <div class="skill-card bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
                     <h4 class="text-xl font-semibold mb-4">Python</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Chatbots interactifs</li>
@@ -343,7 +348,7 @@
                         <li>• Intégration APIs</li>
                     </ul>
                 </div>
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-card bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
                     <h4 class="text-xl font-semibold mb-4">Data Science</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Pandas</li>
@@ -352,7 +357,7 @@
                         <li>• Matplotlib</li>
                     </ul>
                 </div>
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-card bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
                     <h4 class="text-xl font-semibold mb-4">Analyse de données</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Nettoyage de données</li>
@@ -367,7 +372,7 @@
         <div class="mb-16">
             <h3 class="text-2xl font-bold text-blue-600 mb-6">Infrastructure & DevOps</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
+                <div class="skill-card bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up">
                     <h4 class="text-xl font-semibold mb-4">Bases de données</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• MySQL</li>
@@ -379,7 +384,7 @@
 
                     </ul>
                 </div>
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-card bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
                     <h4 class="text-xl font-semibold mb-4">Déploiement</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• WSL</li>
@@ -388,7 +393,7 @@
                         <li>• Heroku</li>
                     </ul>
                 </div>
-                <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-card bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
                     <h4 class="text-xl font-semibold mb-4">Méthodologies</h4>
                     <ul class="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Git</li>
@@ -408,14 +413,14 @@
         <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Avis de mes Clients</h2>
         <div class="flex flex-col lg:flex-row justify-center gap-8">
             <!-- Avis 1 -->
-            <div class="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md transition hover:shadow-xl" data-aos="fade-up">
+            <div class="review-card bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md transition hover:shadow-xl" data-aos="fade-up">
                 <p class="text-gray-600 dark:text-gray-300 mb-4">"Qassem a transformé notre idée en réalité. Son professionnalisme et sa compétence nous ont impressionnés!"</p>
                 <h4 class="font-semibold text-gray-900 dark:text-white">Marie Dupont</h4>
                 <p class="text-gray-500">Entrepreneuse</p>
             </div>
 
             <!-- Avis 2 -->
-            <div class="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md transition hover:shadow-xl" data-aos="fade-up">
+            <div class="review-card bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md transition hover:shadow-xl" data-aos="fade-up">
                 <p class="text-gray-600 dark:text-gray-300 mb-4">"Une collaboration fluide et efficace, Qassem a su répondre à toutes nos attentes."</p>
                 <h4 class="font-semibold text-gray-900 dark:text-white">Jean-Pierre Martin</h4>
                 <p class="text-gray-500">Directeur Technique</p>

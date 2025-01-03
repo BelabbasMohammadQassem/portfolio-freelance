@@ -5,3 +5,54 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Georgia", serif;
   }
+
+
+
+/* Effet de survol pour les blocs de formation et certifications */
+.card-formations:hover,
+.card-certifications:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Ombre portée */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce */
+}
+
+
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Assurez-vous que la transition est lissée */
+}
+
+.project-card:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition lissée */
+}
+
+.skill-card h4 {
+    color: #F9FAFB     ; /* Couleur personnalisée pour les titres h4 */
+}
+.skill-card:hover {
+    transform: scale(1.05) !important; /* Agrandissement au survol */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important; /* Ombre portée */
+}
+
+.review-card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover{
+    transform: scale(1.05) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.parcours-card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parcours-card:hover{
+    transform: scale(1.05) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+}
