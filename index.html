@@ -6,6 +6,7 @@
     <title>Mon Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-white dark:bg-gray-900">
     <!-- Navigation -->
@@ -26,6 +27,8 @@
             </div>
         </div>
     </nav>
+
+    
 
     <!-- Hero Section -->
     <section id="accueil" class="min-h-screen flex items-center justify-center pt-16 bg-[url('image/background.jpeg')] bg-cover bg-center">
@@ -52,6 +55,177 @@
         </div>
     </section>
     
+<!-- Parcours professionnel -->
+<section id="parcours" class="py-20 bg-white dark:bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 dark:text-white">Parcours professionnel</h2>
+        
+        <div class="max-w-4xl mx-auto">
+            <!-- Timeline -->
+            <div class="space-y-8">
+                <!-- Expérience 1 -->
+                <div class="relative pl-8 sm:pl-32 py-6 group">
+                    <!-- Point et ligne sur la timeline -->
+                    <div class="absolute left-0 sm:left-20 h-full w-px bg-gray-200 dark:bg-gray-700"></div>
+                    <div class="absolute left-[-5px] sm:left-[77px] w-4 h-4 rounded-full bg-blue-600 mt-1.5"></div>
+                    
+                    <!-- Container pour le contenu -->
+                    <div class="group-hover:text-blue-600 transition duration-300">
+                        <!-- Date au-dessus -->
+                        <time class="block text-lg md:text-xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+                            Juin - Juillet 2024
+                        </time>
+                        
+                        <!-- Titre et contenu -->
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Développeur Full Stack</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mt-2">O'Clock</p>
+                            <p class="text-gray-600 dark:text-gray-300 mt-2">Projet de fin de formation
+                                Téléprésentiel : <br> Durant ce mois, notre équipe a collaboré sur un projet marquant la fin de notre formation. Ce projet, intitulé O'Foot, avait pour objectif de permettre l'organisation de tournois de football.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expérience 2 -->
+                <div class="relative pl-8 sm:pl-32 py-6 group">
+                    <!-- Point et ligne sur la timeline -->
+                    <div class="absolute left-0 sm:left-20 h-full w-px bg-gray-200 dark:bg-gray-700"></div>
+                    <div class="absolute left-[-5px] sm:left-[77px] w-4 h-4 rounded-full bg-blue-600 mt-1.5"></div>
+                    
+                    <!-- Container pour le contenu -->
+                    <div class="group-hover:text-blue-600 transition duration-300">
+                        <!-- Date au-dessus -->
+                        <time class="block text-lg md:text-xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+                            Décembre 2022
+                        </time>
+                        
+                        <!-- Titre et contenu -->
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Développeur Web</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mt-2">E-Petitpas</p>
+                            <p class="text-gray-600 dark:text-gray-300 mt-2">Lors de ce stage, ma mission consistait à concevoir la page dédiée aux formateurs en utilisant le langage sémantique HTML, le langage de style CSS, ainsi que la bibliothèque Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Formation et certifications -->
+<section id="formation" class="py-20 bg-gray-50 dark:bg-gray-800">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 dark:text-white">Formation et certifications</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <!-- Formation -->
+            <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold mb-4 dark:text-white">Formation</h3>
+                
+                <div class="space-y-6">
+                    <div class="border-l-4 border-blue-600 pl-4">
+                        <p class="text-gray-500 dark:text-gray-300">Janvier 2024 - Juillet 2024</p>
+                        <h4 class="font-semibold text-lg dark:text-white">Titre Pro niveau 5 Développeur Web & Mobile</h4>
+                        <p class="text-gray-600 dark:text-gray-400">Ecole O'Clock</p>
+                    </div>
+                    
+                    <div class="border-l-4 border-blue-600 pl-4">
+                        <p class="text-gray-500 dark:text-gray-300">Octobre 2022 - Décembre 2022</p>
+                        <h4 class="font-semibold text-lg dark:text-white">Formation Développeur Web Remise à Niveau</h4>
+                        <p class="text-gray-600 dark:text-gray-400">Assofac</p>
+                    </div>
+
+                    <div class="border-l-4 border-blue-600 pl-4">
+                        <p class="text-gray-500 dark:text-gray-300">Septembre 2020 - Juillet 2021</p>
+                        <h4 class="font-semibold text-lg dark:text-white">Baccalauréat STMG spécialité Gestion et Finance</h4>
+                        <p class="text-gray-600 dark:text-gray-400">Lycée Alfred Nobel</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold mb-4 dark:text-white">Certifications</h3>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold dark:text-white">Certification Développeur Python</h4>
+                            <p class="text-gray-600 dark:text-gray-400">Python - 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold dark:text-white">Certification Hacking Ethique</h4>
+                            <p class="text-gray-600 dark:text-gray-400">Udemy - 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                        <div>
+                            <h4 class="font-semibold dark:text-white">Certification Cybersécurité</h4>
+                            <p class="text-gray-600 dark:text-gray-400">Udemy - 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Soft skills -->
+<section id="soft-skills" class="py-20 bg-white dark:bg-gray-900">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 dark:text-white">Soft Skills</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <!-- Skill 1 -->
+            <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 text-center transition duration-300 hover:transform hover:scale-105">
+                <div class="bg-blue-100 dark:bg-blue-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2 dark:text-white">Travail d'équipe</h3>
+                <p class="text-gray-600 dark:text-gray-300">Capacité à collaborer efficacement et à contribuer positivement à l'équipe</p>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 text-center transition duration-300 hover:transform hover:scale-105">
+                <div class="bg-blue-100 dark:bg-blue-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2 dark:text-white">Résolution de problèmes</h3>
+                <p class="text-gray-600 dark:text-gray-300">Analyse efficace et résolution créative des défis techniques</p>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 text-center transition duration-300 hover:transform hover:scale-105">
+                <div class="bg-blue-100 dark:bg-blue-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2 dark:text-white">Gestion du temps</h3>
+                <p class="text-gray-600 dark:text-gray-300">Organisation efficace et respect des délais dans les projets</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Projets Section -->
     <section id="projets" class="py-20 bg-gray-50 dark:bg-gray-800">
@@ -312,7 +486,7 @@
                     </a>
     
                     <!-- Email -->
-                    <a href="proqassem@gmail.com" 
+                    <a href="mailto:proqassem@gmail.com" 
                        class="text-gray-400 hover:text-white transition duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
